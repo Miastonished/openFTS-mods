@@ -69,6 +69,7 @@ public class FTS extends JFrame implements ActionListener{
         silverImg.setBounds(r,r2,100 * scale,100 * scale);
         frame.add(silverImg); //   creates silver
         frame.revalidate();
+        frame.setAlwaysOnTop(true); 
     }
 
     public void actionPerformed(ActionEvent e) {
